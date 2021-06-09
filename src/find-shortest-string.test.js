@@ -9,7 +9,7 @@ test("findShortestString finds the longest string in an array", () => {
 test("findShortestString returns the earlier string in cases of joint longest strings", () => {
   expect(findShortestString(["brave", "dance"])).toBe("brave");
   expect(findShortestString(["dog", "cat", "mouse"])).toBe("dog");
-  expect(findShortestString(["Tavija", "Rachel", "Rima"])).toBe("Tavija");
+  expect(findShortestString(["Tavs", "Rachel", "Rima"])).toBe("Tavs");
 });
 
 // console.log(findShortestString(["it", "is", "a", "nice", "day"]), "a");
